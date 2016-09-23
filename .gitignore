@@ -4,7 +4,11 @@
 
 ## Build generated
 build/
+<<<<<<< HEAD
 DerivedData
+=======
+DerivedData/
+>>>>>>> 6e40db6465f285607cbb1f26dd29f411b1a9da83
 
 ## Various settings
 *.pbxuser
@@ -15,6 +19,7 @@ DerivedData
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 xcuserdata
 
 ## Other
@@ -22,10 +27,32 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+=======
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+>>>>>>> 6e40db6465f285607cbb1f26dd29f411b1a9da83
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+<<<<<<< HEAD
+=======
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+>>>>>>> 6e40db6465f285607cbb1f26dd29f411b1a9da83
 
 # CocoaPods
 #
@@ -33,8 +60,12 @@ xcuserdata
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
+<<<<<<< HEAD
 Pods/
 Podfile.lock
+=======
+# Pods/
+>>>>>>> 6e40db6465f285607cbb1f26dd29f411b1a9da83
 
 # Carthage
 #
@@ -45,6 +76,7 @@ Carthage/Build
 
 # fastlane
 #
+<<<<<<< HEAD
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
@@ -52,3 +84,14 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+=======
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+>>>>>>> 6e40db6465f285607cbb1f26dd29f411b1a9da83
