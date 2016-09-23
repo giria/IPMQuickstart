@@ -1,3 +1,17 @@
+
+Dont forget to add to the Info.plist file the following entry:
+```
+<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+```
+This way you can communicate through HTTP.
+
+
+
+
 # IP Messaging iOS Quickstart for Swift
 
 Looking for Objective-C instead? [Check out this application](https://github.com/TwilioDevEd/ipm-quickstart-objc).
